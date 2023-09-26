@@ -1,4 +1,4 @@
-const cacheName = "v1";
+const cacheName = "v2";
 const cacheURLs = [
     "/",
     "/build/nds.js",
@@ -11,9 +11,7 @@ const cacheURLs = [
     "/index.html",
     "/localforage.js",
     "/pako.min.js",
-    "/style.css",
-    "/nsmb.nds",
-    "/sw.js"
+    "/style.css"
 ];
 var abc = document.getElementById("install-button");
 abc.addEventListener('click', a => {
