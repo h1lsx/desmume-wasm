@@ -19,6 +19,3 @@ var abc = document.getElementById("install-button");
 abc.addEventListener('click', a => {
     caches.open(cacheName).then(cache.addAll(cacheURLs))
 })
-self.addEventListener ('fetch', function(event) {
-    
-});
