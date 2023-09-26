@@ -242,7 +242,7 @@
             debugger
             return true;
         };
-
+        navigator.serviceWorker && navigator.serviceWorker.register(‘./sw.js’).then(function(registration) {  console.log(‘Excellent, registered with scope: ‘, registration.scope);});
         function $id(id) {
             return document.getElementById(id);
         }
@@ -877,7 +877,7 @@
 `)
         }
     </script>
-    <script src="build/nds.js"></script>
+    < src="build/nds.js"></script>
     <script src="sw.js"></script>
 </body>
 
