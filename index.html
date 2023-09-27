@@ -243,7 +243,7 @@
             debugger
             return true;
         };
-        navigator.serviceWorker && navigator.serviceWorker.register(‘./sw.js’).then(function(registration) {  console.log(‘Excellent, registered with scope: ‘, registration.scope);});
+        navigator.serviceWorker && navigator.serviceWorker.register(‘sw.js’).then(function(registration) {  console.log(‘Excellent, registered with scope: ‘, registration.scope);});
         function $id(id) {
             return document.getElementById(id);
         }
